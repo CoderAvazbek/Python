@@ -1,0 +1,12 @@
+course = " Python programming "
+print(f"{course}")
+print(f"lower -> {course.lower()}")
+print(f"{course.upper()}")
+print(f"{course.casefold()}")
+print(f"{course.title()}")
+print(f"{course.capitalize()}")
+print(f"{course.rsplit()}")
+print(f"{course.replace('Python', 'Java')}")
+print(f"{course.find('pro')}")
+print("pro" in course)
+print("swift" not in course)
